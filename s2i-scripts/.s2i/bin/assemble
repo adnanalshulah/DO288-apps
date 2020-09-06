@@ -12,7 +12,7 @@ config_s2i
 
 cp -Rf /tmp/src/*.html ./
 
-DATE='date "+%b %d, %Y @ %H:%M %p"'
+DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
 echo "this is the custom adnan $DATE" >> ./info.html
 echo "the version $HTTPD_VERSION" >> ./info.html
